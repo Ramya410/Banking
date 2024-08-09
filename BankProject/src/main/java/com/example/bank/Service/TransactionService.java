@@ -1,4 +1,4 @@
-package com.example.bank.service;
+package com.example.bank.Service;
 
 public class TransactionService {
 
