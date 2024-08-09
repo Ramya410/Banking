@@ -61,5 +61,12 @@ public class Account {
     public void setCustomer(Customer customer) {
         this.customer = customer;
     }
+
+	@Override
+	public String toString() {
+		return "Account [accountNumber=" + accountNumber + ", accountType=" + accountType + ", balance=" + balance
+				+ ", customer=" + customer + "]";
+	}
+    
 }
 
